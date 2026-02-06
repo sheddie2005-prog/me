@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Be My Valentine</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ffd6e8, #ffeef6);
+      font-family: "Comic Sans MS", "Poppins", cursive;
+    }
+
+    .card {
+      background: white;
+      padding: 40px 50px;
+      border-radius: 25px;
+      text-align: center;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+      max-width: 350px;
+    }
+
+    h1 {
+      color: #ff4d88;
+      font-size: 2.2rem;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #555;
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    button {
+      border: none;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .yes {
+      background: #ff4d88;
+      color: white;
+      box-shadow: 0 5px 15px rgba(255, 77, 136, 0.4);
+    }
+
+    .no {
+      background: #ffd6e8;
+      color: #ff4d88;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .hearts {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="hearts">💗💖💗</div>
+    <h1>Will you be my Valentine?</h1>
+    <p>You’d make my heart the happiest my model,i wouldnt wish for a better valentine other than you😉😘 💕</p>
+
+    <div class="buttons">
+      <button class="yes" onclick="alert('Yay!!! 💖💐')">Yes 💕</button>
+      <button class="no" onclick="alert('Aww 😢 I’ll keep asking 💗')">No 🙈</button>
+    </div>
+  </div>
+</body>
+</html>
+v
